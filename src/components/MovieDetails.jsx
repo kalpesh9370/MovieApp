@@ -103,6 +103,7 @@ function MovieDetails() {
             <iframe
               width="100%"
               // height="315"
+              //width 200
               height="615"
               src={`https://www.youtube.com/embed/${videoKey}?autoplay=1`}
               title="YouTube video player"
