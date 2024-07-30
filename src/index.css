@@ -68,3 +68,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Custom CSS */
+.iframe-mobile-height {
+  height: 215px;
+}
+
+@media (min-width: 768px) {
+  .iframe-desktop-height {
+    height: 615px;
+  }
+}

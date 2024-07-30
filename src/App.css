@@ -38,3 +38,13 @@
 .read-the-docs {
   color: #888;
 }
+/* Custom CSS */
+.iframe-mobile-height {
+  height: 15px;
+}
+
+@media (min-width: 768px) {
+  .iframe-desktop-height {
+    height: 615px;
+  }
+}
