@@ -48,3 +48,94 @@
     height: 615px;
   }
 }
+
+/* Auth form container */
+html, body {
+  margin: 0; /* Remove default margin */
+  height: 100%; /* Ensure body takes full height */
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; /* Ensure full viewport width */
+  background-color: #131520;
+}
+
+.auth-form {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px; /* Optional: set a max width for the form */
+  width: 100%; /* Full width */
+}
+
+.auth-form h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.auth-button {
+  padding: 0.6em 1.2em;
+  font-size: 0.9em;
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width */
+}
+
+.auth-button:hover {
+  background-color: #535bf2;
+  border-color: #535bf2;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.auth-form button:hover {
+  background-color: #535bf2;
+}
+
+.auth-form p {
+  color: #888;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.auth-form p:hover {
+  color: #fff;
+}
+
+.app-container {
+  background-color: #131520; /* Set the background color */
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  color: white; /* Optional: Set text color for better visibility */
+}
+.movie-details-container {
+  background-color: #131520; /* Set the background color */
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+}
